@@ -14,7 +14,7 @@ SRT-SHA-256: `362874304c04881f59be1eef43334c88fc20d20a20ab92c2f6e6d012e8146d68`.
 
 Die Karten bleiben sinngemässe didaktische Rekonstruktionen. Ihre Reihenfolge folgt den Themenblöcken; die Playernavigation folgt der Filmreihenfolge. Einzelne Karten teilen eine Passage oder überlappen. Ein Schluss kann sich auf weitere Stellen stützen, während der direkte Link zur hier angegebenen tragenden Passage führt.
 
-Vollständiges SRT und Film werden nicht veröffentlicht. Die MP4 muss einmal lokal geöffnet werden; Szenenlinks funktionieren danach direkt. Bei abweichender Laufzeit warnt der Player.
+Vollständiges SRT und Film werden nicht veröffentlicht. Der offizielle ZEIT-Videopodcast wird über Spotify direkt online eingebettet. Laufzeit laut Onlineplayer: 3266,881 Sekunden, gegenüber 3266,908 Sekunden der lokalen Referenz. Argumentlinks steuern die Onlinewiedergabe direkt. Die lokale MP4 bleibt ein optionaler Ersatz; bei abweichender Laufzeit warnt der Player.
 
 Die Zusatzsegmentnummern P003–P017 stammen aus einer gesonderten Nachtranskription des Ausschnitts 33:00–34:15 (lokale Zeit plus 1980 Sekunden). Sie schliesst für A021 und A022 eine Erkennungslücke des langen Durchlaufs. Zusatz-SRT-SHA-256: `a0f1d93004202fa99b62926fa7b90b88719377335c9f338641b67f00191ee907`.
 

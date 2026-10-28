@@ -24,4 +24,8 @@ Rechtliche Aussagen betreffen die Darstellung der deutschen Rechtsordnung im Int
 
 ## Datenschutz und Rechte
 
-Freitexte und Quizantworten werden ausschliesslich im lokalen Browser gespeichert. Lokale Quellen werden per Object-URL geöffnet und nicht an einen Dienst übertragen. Google Fonts und GitHub Pages stellen externe Ressourcen bereit. Interviewvolltext und Film bleiben ausserhalb des öffentlichen Repositorys. Rechte an Interview und Einzelbild: DIE ZEIT / jeweilige Rechteinhaber. Keine pauschale offene Lizenz für Fremdmaterial.
+Freitexte und Quizantworten werden ausschliesslich im lokalen Browser gespeichert. Lokale Quellen werden per Object-URL geöffnet und nicht an einen Dienst übertragen. Google Fonts, Spotify und GitHub Pages stellen externe Ressourcen bereit. Der offizielle Film wird direkt über Spotify eingebettet; dabei gelten die Datenschutz- und Zugangsbedingungen von Spotify. Interviewvolltext und Film bleiben ausserhalb des öffentlichen Repositorys. Rechte an Interview und Einzelbild: DIE ZEIT / jeweilige Rechteinhaber. Keine pauschale offene Lizenz für Fremdmaterial.
+
+## Offizielle Onlineeinbettung
+
+Die ZEIT-Originalseite verweist auf den Videopodcast [Spotify, Episode 5tarL1eneuB19jjoGt87eM](https://open.spotify.com/episode/5tarL1eneuB19jjoGt87eM). Statische offizielle Videoeinbettung mit Zeitsteuerung über dasselbe Nachrichtenprotokoll wie die [offizielle iFrame API](https://developer.spotify.com/documentation/embeds/references/iframe-api). Die schlanke lokale Anbindung prüft Nachrichtenherkunft und Absenderfenster. Referenz ist die öffentlich ausgelieferte Spotify-API-Implementierung vom 28.10.2026. Im Browser gemessene Online-Laufzeit: 3266,881 Sekunden; lokale Referenz: 3266,908 Sekunden. Keine zusätzliche Filmkopie wird veröffentlicht.

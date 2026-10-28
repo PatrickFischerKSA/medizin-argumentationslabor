@@ -12,9 +12,9 @@ Vier Lektionen: Quellenarbeit; Rekonstruktion; Gegenprobe; Stellungnahme mit Pee
 
 ## Material und Fundstellen
 
-Seitenangaben beziehen sich auf die achtseitige bereitgestellte bereinigte PDF-Lesefassung, nicht auf eine Seitenzählung der ZEIT-Website. Die Karten sind keine vollständige Transkription. Alle 32 Argumentkarten enthalten überprüfte Sprungmarken in die bereitgestellte MP4. Der Szenenplayer bietet Wiederholung, vorherige/nächste Stelle in Filmreihenfolge, Szenenende-Pause, Zeitregler, Vollfilm-Modus und teilbare Links (`?szene=A023#film`). Eine vor dem Öffnen der MP4 gewählte Stelle wird nach dem Laden automatisch angesprungen. Im Gesprächsbereich können Lernende ihre MP4 und ihr PDF lokal öffnen und eigene Filmzeiten sichern. Dateien werden nicht hochgeladen und müssen nach Neuladen erneut gewählt werden. Der verlinkte Originalbeitrag ist ein weiterer Zugang, kann aber Zugangsbeschränkungen haben.
+Seitenangaben beziehen sich auf die achtseitige bereitgestellte bereinigte PDF-Lesefassung, nicht auf eine Seitenzählung der ZEIT-Website. Die Karten sind keine vollständige Transkription. Alle 32 Argumentkarten enthalten überprüfte Sprungmarken in die bereitgestellte MP4. Der Szenenplayer bietet Wiederholung, vorherige/nächste Stelle in Filmreihenfolge, Szenenende-Pause, Zeitregler, Vollfilm-Modus und teilbare Links (`?szene=A023#film`). Der offizielle ZEIT-Videopodcast wird über Spotify mit der Steuerung der iFrame-Schnittstelle direkt online geladen. Argumentkarten steuern ihn per `seek`, `play` und `pause`; beim Laden vorgemerkte Stellen werden automatisch übernommen. Die lokale MP4-Auswahl bleibt unter „Alternative“ optional verfügbar. Das PDF wird weiterhin lokal geöffnet. Lokale Dateien werden nicht hochgeladen. Der verlinkte Originalbeitrag ist ein weiterer Zugang, kann aber Zugangsbeschränkungen haben.
 
-Volltext und 788-MB-Film werden nicht öffentlich dupliziert. Ein einzelnes Filmstandbild dient der Identifikation des analysierten Gesprächs (DIE ZEIT, 03:00). Die Originalmaterialien müssen im Unterricht separat bereitgestellt werden.
+Volltext und 788-MB-Film werden nicht öffentlich dupliziert. Ein einzelnes Filmstandbild dient der Identifikation des analysierten Gesprächs (DIE ZEIT, 03:00). Die PDF-Lesefassung muss im Unterricht separat bereitgestellt werden. Der Film wird vom offiziellen Anbieter eingebettet.
 
 ## Technik
 
@@ -22,7 +22,7 @@ Buildless HTML, CSS, JavaScript. Einstieg: `index.html`. Lokaler Server: `python
 
 Eingaben bleiben im lokalen Browser. Markdown-Export enthält Freitexte und Einheitenstatus; JSON-Sicherung enthält auch Selbstkontrolle, Quizantworten und Lernniveau. Ein JSON-Import ersetzt nach Bestätigung den aktuellen Stand. Browserdaten können gelöscht werden: regelmässig exportieren. Schriftarten werden über Google Fonts geladen, Systemschriften funktionieren als Fallback. GitHub verarbeitet beim Seitenaufruf übliche Verbindungsdaten.
 
-`node tests/player.cjs` prüft Zeitbereiche, Deep Links, vorgemerkte Sprünge, Szenenbegrenzung, Wiederholung, Vollfilm-Modus und Journalfundstellen. `node tests/smoke.cjs` prüft Datenintegrität, Fundstellen, Asset-Verweise und JavaScript-Syntax. `python3 build_content.py` erzeugt die Inhaltsdatei und den Markdown-Atlas aus der redaktionellen Quelle.
+`node tests/online-media.cjs` prüft Herkunftsprüfung von Playernachrichten, vorgemerkte Befehle und den lokalen Ersatz. `node tests/player.cjs` prüft Zeitbereiche, Deep Links, vorgemerkte Sprünge, Szenenbegrenzung, Wiederholung, Vollfilm-Modus und Journalfundstellen. `node tests/smoke.cjs` prüft Datenintegrität, Fundstellen, Asset-Verweise und JavaScript-Syntax. `python3 build_content.py` erzeugt die Inhaltsdatei und den Markdown-Atlas aus der redaktionellen Quelle.
 
 ## Quellen und Grenzen
 
@@ -30,4 +30,4 @@ Siehe [QUELLEN.md](QUELLEN.md). Umsetzung orientiert sich am [Klima-Argumentatio
 
 ## Zeitmarken
 
-Siehe [ZEITMARKEN.md](ZEITMARKEN.md) für Prüfverfahren, Referenzdatei und Zuordnung zu zeitcodierten Transkriptsegmenten. Die lokale vollständige Arbeits-Transkription wird nicht veröffentlicht. Zeitgrenzen liegen auf Ebene gesprochener Passagen, nicht einzelner Wörter. Unterschiedliche Argumentkarten können dieselbe oder überlappende Passagen erschliessen. Die Navigation folgt der Filmreihenfolge, die vom didaktischen Kartenaufbau abweichen kann.
+Siehe [ZEITMARKEN.md](ZEITMARKEN.md) für Prüfverfahren, Referenzdatei und Zuordnung zu zeitcodierten Transkriptsegmenten. Die lokale vollständige Arbeits-Transkription wird nicht veröffentlicht. Onlinequelle: [offizieller ZEIT-Videopodcast auf Spotify](https://open.spotify.com/episode/5tarL1eneuB19jjoGt87eM). Der Onlinefilm hat eine Laufzeit von 3266,881 Sekunden, die geprüfte lokale Referenz 3266,908 Sekunden. Die Differenz beträgt etwa 0,027 Sekunden; die vorhandenen Zeitmarken bleiben erhalten. Zeitgrenzen liegen auf Ebene gesprochener Passagen, nicht einzelner Wörter. Unterschiedliche Argumentkarten können dieselbe oder überlappende Passagen erschliessen. Die Navigation folgt der Filmreihenfolge, die vom didaktischen Kartenaufbau abweichen kann.
