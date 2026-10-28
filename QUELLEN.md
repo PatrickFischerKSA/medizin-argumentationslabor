@@ -12,7 +12,7 @@
 
 These und Grund sind sinngemässe Zusammenfassungen. Die Schlussregel ist eine explizit gekennzeichnete interpretative Ergänzung. Geltungsgrenze und Gegenprobe sind eigene didaktische Kommentare. Die stärkste vertretbare Rekonstruktion kann mehrere Lösungen zulassen.
 
-Seitenbereiche sind sichere Textfundstellen auf Ebene der jeweiligen Passage, keine überprüften Filmzeiten. Der Film wurde technisch geprüft und für das Identifikationsbild gesichtet, nicht vollständig transkribiert oder mit der bereinigten PDF-Fassung synchronisiert. Tatsächliche Filmzeiten werden erst nach eigener Sichtung übernommen. Bereinigte Lesefassung und gesprochener Wortlaut können abweichen.
+Seitenbereiche beziehen sich auf die Lesefassung. Zusätzlich sind alle 32 Karten mit Filmstellen verknüpft: vollständige lokale Spracherkennung der bereitgestellten MP4 mit zeitcodierten SRT-Segmenten, anschliessend inhaltliche Zuordnung jeder Karte zu einer gesprochenen Passage. Verfahren, Dateiprüfsummen, genaue Grenzen und Segmentnummern stehen in [ZEITMARKEN.md](ZEITMARKEN.md). Die Grenzen stammen aus automatischen Transkriptsegmenten; sie sind nicht manuell wortgenau abgehört. Bereinigte Lesefassung und gesprochener Wortlaut können abweichen. Überlappende Filmstellen und eine von der Kartenreihenfolge abweichende Filmreihenfolge sind ausdrücklich vorgesehen.
 
 Sachbehauptungen über AlphaFold, Prävention, Lebensjahre, Kosten oder Wirksamkeitsanteile sind Aussagen des Interviews und hier nicht unabhängig bestätigt. Das Zukunftsmedikament gegen alle Herzinfarkte und die Superpille sind Gedankenexperimente. Medizinische Verallgemeinerungen werden nicht als Behandlungsempfehlungen dargestellt.
 
